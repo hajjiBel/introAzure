@@ -19,11 +19,6 @@ Ce lab vous guide à travers la création d'une base de données SQL Azure, la c
 
 ---
 
-## Durée estimée
-**35-45 minutes**
-
----
-
 ## Prérequis
 
 - Un compte Azure actif
