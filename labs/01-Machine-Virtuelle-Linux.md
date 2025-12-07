@@ -189,10 +189,9 @@ Pour éviter les coûts Azure inutiles:
 |---------|-------------|
 | **Groupe de ressources** | Conteneur logique pour organiser toutes vos ressources Azure |
 | **Image VM** | Template préconfigurée du système d'exploitation (Ubuntu 22.04 LTS) |
-| **Taille VM** | Configuration hardware allouée à votre machine (2 vCPU, 4 Go RAM pour B2s) |
+| **Taille VM** | Configuration hardware allouée à votre machine (2 vCPU, 8 Go RAM pour B2s) |
 | **Authentification SSH** | Mécanisme sécurisé d'accès sans mot de passe |
 | **Adresse IP publique** | Adresse IPv4 permettant l'accès de l'extérieur vers votre VM |
-| **Benchmark de performance** | Mesure quantitative des capacités de calcul de votre système |
 
 ---
 
