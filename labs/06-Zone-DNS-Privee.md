@@ -18,11 +18,6 @@ Ce lab vous montre comment créer une zone DNS privée, lier un réseau virtuel,
 
 ---
 
-## Durée estimée
-**30-40 minutes**
-
----
-
 ## Prérequis
 
 - Un compte Azure actif
