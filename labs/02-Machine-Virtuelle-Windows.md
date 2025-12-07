@@ -19,11 +19,6 @@ Ce lab vous guide à travers la création d'une machine virtuelle Windows 10 sur
 
 ---
 
-## Durée estimée
-**45-60 minutes**
-
----
-
 ## Prérequis
 
 - Un compte Azure actif avec accès au portail Azure
@@ -126,24 +121,7 @@ Ce lab vous guide à travers la création d'une machine virtuelle Windows 10 sur
 
 ---
 
-### Tâche 4 : Évaluer les Performances (GeekBench)
-
-Une fois connecté au Bureau à Distance:
-
-1. Ouvrez un navigateur Web
-2. Allez sur [https://www.geekbench.com/download](https://www.geekbench.com/download)
-3. Téléchargez **GeekBench 6 pour Windows**
-4. Installez l'application
-5. Lancez GeekBench 6
-6. Cliquez sur **Run CPU Benchmark**
-7. Attendez la fin de l'exécution (15-20 minutes)
-8. **Documentez votre score**:
-   - Score Single-Core
-   - Score Multi-Core
-
----
-
-### Tâche 5 : Modifier l'Adresse IP Privée
+### Tâche 4 : Modifier l'Adresse IP Privée
 
 1. Retournez au **Portail Azure**
 2. Recherchez votre VM `VM1`
@@ -159,7 +137,7 @@ Une fois connecté au Bureau à Distance:
 
 ---
 
-### Tâche 6 : Configurer les Serveurs DNS
+### Tâche 5 : Configurer les Serveurs DNS
 
 1. Depuis le **Portail Azure**, allez dans **Paramètres** > **Mise en réseau**
 2. Cliquez sur l'interface réseau
@@ -173,7 +151,7 @@ Une fois connecté au Bureau à Distance:
 
 ---
 
-### Tâche 7 : Créer un Nouveau Groupe de Ressources (V2)
+### Tâche 6 : Créer un Nouveau Groupe de Ressources (V2)
 
 1. Retournez à **Groupes de ressources** dans le portail
 2. Cliquez sur **+ Créer**
@@ -184,7 +162,7 @@ Une fois connecté au Bureau à Distance:
 
 ---
 
-### Tâche 8 : Migrer la VM vers le Nouveau Groupe de Ressources
+### Tâche 7 : Migrer la VM vers le Nouveau Groupe de Ressources
 
 1. Accédez à la VM `VM1` dans votre groupe de ressources initial
 2. Cliquez sur **Voir plus** (trois points) > **Déplacer**
@@ -196,7 +174,7 @@ Une fois connecté au Bureau à Distance:
 
 ---
 
-### Tâche 9 : Redimensionner la Machine Virtuelle
+### Tâche 8 : Redimensionner la Machine Virtuelle
 
 1. Allez à la VM `VM1` dans le groupe de ressources `Formation[VotreNom]-V2`
 2. Arrêtez la VM en cliquant sur **Arrêter** (cela est nécessaire avant le redimensionnement)
@@ -209,7 +187,7 @@ Une fois connecté au Bureau à Distance:
 
 ---
 
-### Tâche 10 : Vérifier les Modifications
+### Tâche 9 : Vérifier les Modifications
 
 1. Connectez-vous à nouveau en Bureau à Distance
 2. Vérifiez que le système fonctionne correctement
@@ -218,7 +196,7 @@ Une fois connecté au Bureau à Distance:
 
 ---
 
-### Tâche 11 : Nettoyage des Ressources
+### Tâche 10 : Nettoyage des Ressources
 
 Pour éviter les coûts supplémentaires:
 
