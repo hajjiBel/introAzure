@@ -81,7 +81,7 @@ Ce lab vous guide à travers la création et la configuration d'une machine virt
    - **Nom de la machine**: `VM1`
    - **Région**: `Europe du Nord`
    - **Image**: `Ubuntu Server 22.04 LTS - Gen2`
-   - **Taille**: `B2s (2 vCPU, 4 Go de RAM)`
+   - **Taille**: `B2s (2 vCPU, 8 Go de RAM)`
 
 4. Configurez l'authentification:
    - **Type d'authentification**: `Clé publique SSH`
