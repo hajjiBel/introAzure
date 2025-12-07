@@ -18,11 +18,6 @@ Ce lab vous montre comment connecter deux réseaux virtuels situés dans la mêm
 
 ---
 
-## Durée estimée
-**60-75 minutes** (déploiement des gateways peut être long)
-
----
-
 ## Prérequis
 
 - Un compte Azure actif
