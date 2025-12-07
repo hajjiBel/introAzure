@@ -13,15 +13,10 @@ Ce lab vous guide à travers la création et la configuration d'une machine virt
 - **Configurer l'authentification** : Mettre en place l'accès SSH et gérer les credentials
 - **Gérer les ressources cloud** : Organiser les ressources au sein d'un groupe de ressources
 - **Accéder à distance** : Établir une connexion SSH sécurisée vers la VM
-- **Évaluer les performances** : Mesurer et documenter les indices de performance du système
 - **Nettoyer les ressources** : Supprimer proprement les ressources pour éviter les coûts
 
 ---
 
-## Durée estimée
-**30-45 minutes**
-
----
 
 ## Prérequis
 
@@ -155,28 +150,7 @@ lsb_release -a
 
 ---
 
-### Tâche 6 : Évaluer les Performances du Système
-
-Installez et exécutez l'outil de benchmark GeekBench:
-
-1. Téléchargez GeekBench 6:
-   ```bash
-   wget https://cdn.geekbench.com/Geekbench-6.3.0-Linux.tar.gz
-   tar xzf Geekbench-6.3.0-Linux.tar.gz
-   cd Geekbench-6.3.0-Linux
-   ```
-
-2. Exécutez le benchmark:
-   ```bash
-   ./geekbench6
-   ```
-
-3. Attendez la fin de l'exécution (environ 10-15 minutes)
-4. **Notez votre score de performance** (Single-Core et Multi-Core)
-
----
-
-### Tâche 7 : Vérifier les Ressources Système
+### Tâche 6 : Vérifier les Ressources Système
 
 Consultez les informations système via ces commandes:
 
@@ -196,7 +170,7 @@ top
 
 ---
 
-### Tâche 8 : Nettoyage des Ressources
+### Tâche 7 : Nettoyage des Ressources
 
 Pour éviter les coûts Azure inutiles:
 
@@ -240,14 +214,6 @@ Pour éviter les coûts Azure inutiles:
 | **Timeout de connexion SSH** | Vérifiez que le groupe de sécurité réseau autorise le port 22 (SSH) |
 | **Adresse IP publique non visible** | Attendez 2-3 minutes après la création de la VM |
 | **Coûts élevés** | Supprimez la VM quand vous ne l'utilisez pas |
-
----
-
-## Ressources Supplémentaires
-
-- [Documentation Azure Virtual Machines](https://learn.microsoft.com/fr-fr/azure/virtual-machines/)
-- [Guide SSH et authentification par clé](https://learn.microsoft.com/fr-fr/azure/virtual-machines/linux/ssh-from-windows)
-- [Dimensionnement des machines virtuelles Azure](https://learn.microsoft.com/fr-fr/azure/virtual-machines/sizes-general)
 
 ---
 
