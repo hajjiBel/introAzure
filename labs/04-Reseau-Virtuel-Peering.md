@@ -19,11 +19,6 @@ Ce lab vous guide à travers la création de deux réseaux virtuels séparés et
 
 ---
 
-## Durée estimée
-**45-60 minutes**
-
----
-
 ## Prérequis
 
 - Un compte Azure actif
