@@ -18,10 +18,6 @@ Ce lab vous guide à travers la création d'un compte de stockage Azure, la conf
 
 ---
 
-## Durée estimée
-**25-35 minutes**
-
----
 
 ## Prérequis
 
