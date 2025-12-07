@@ -92,7 +92,7 @@ Ce lab vous guide à travers la création d'une machine virtuelle Windows 10 sur
    - **Taille**: `B2s (2 vCPU, 4 Go RAM)`
 
 4. Configurez les identifiants:
-   - **Nom d'utilisateur**: `Hassen`
+   - **Nom d'utilisateur**: `m2iuser`
    - **Mot de passe**: Créez un mot de passe fort (> 12 caractères avec majuscules, minuscules, chiffres, symboles)
    - **Confirmer le mot de passe**: Retapez le mot de passe
 
@@ -114,7 +114,7 @@ Ce lab vous guide à travers la création d'une machine virtuelle Windows 10 sur
 5. Ouvrez le fichier `.rdp` téléchargé
 6. Cliquez sur **Connexion**
 7. Entrez vos identifiants:
-   - **Utilisateur**: `Hassen`
+   - **Utilisateur**: `m2iuser`
    - **Mot de passe**: Le mot de passe que vous avez créé
 8. Acceptez les certificats de sécurité
 9. Vous êtes maintenant connecté à votre VM Windows
