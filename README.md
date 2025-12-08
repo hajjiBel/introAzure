@@ -4,38 +4,38 @@
 
 ## 📚 Contenu des Labs
 
-### Lab 01 - Machine Virtuelle Linux ⏱️ 30-45 min
+### Lab 01 - Machine Virtuelle Linux 
 Création et configuration d'une VM Ubuntu 22.04 sur Azure avec SSH, benchmark de performance (GeekBench).
 - **Skills**: IaaS, Linux, SSH, Performance Testing
 - **Groupe ressources**: Formation[VotreNom]
 
-### Lab 02 - Machine Virtuelle Windows ⏱️ 45-60 min
+### Lab 02 - Machine Virtuelle Windows 
 Création d'une VM Windows 10 avec RDP, configuration réseau, redimensionnement et migration.
 - **Skills**: IaaS, Windows, RDP, Networking, Migration
 - **Groupe ressources**: Formation[VotreNom], Formation[VotreNom]-V2
 
-### Lab 03 - Stockage Blob ⏱️ 25-35 min
+### Lab 03 - Stockage Blob 
 Compte de stockage Azure, conteneurs blob, upload fichiers, monitoring de performance.
 - **Skills**: Cloud Storage, Redondance, Monitoring
 - **Groupe ressources**: StorageGroupeRessource
 
-### Lab 04 - VNet Peering ⏱️ 45-60 min
+### Lab 04 - VNet Peering
 Création de deux réseaux virtuels et connexion via peering, test de connectivité inter-VNets.
 - **Skills**: Networking, VNets, Peering, NSG, ICMP
 - **Groupe ressources**: Peering-GroupeRessource
 
-### Lab 05 - VNet-to-VNet Gateway ⏱️ 60-75 min
+### Lab 05 - VNet-to-VNet Gateway 
 Passerelles VPN, connexions chiffrées avec IKEv2, tunnel IPSec sécurisé.
 - **Skills**: VPN Gateway, IKEv2, IPSec, Advanced Networking
 - **Groupe ressources**: VnetToVnet-GroupeRessource
 - ⚠️ **Note**: Déploiement long (20-30 min pour les gateways)
 
-### Lab 06 - Zone DNS Privée ⏱️ 30-40 min
+### Lab 06 - Zone DNS Privée 
 Zone DNS privée, liaison VNet, enregistrements DNS automatiques et manuels, nslookup.
 - **Skills**: DNS, Name Resolution, Automatic Registration
 - **Groupe ressources**: DNSZone-GroupeRessource
 
-### Lab 07 - Base de Données SQL ⏱️ 35-45 min
+### Lab 07 - Base de Données SQL 
 Serveur SQL, authentification, pare-feu, éditeur de requête, requêtes SQL, monitoring DTU.
 - **Skills**: SQL Database, Firewall, Query Editor, T-SQL
 - **Groupe ressources**: SQLGroupeRessource
@@ -43,26 +43,6 @@ Serveur SQL, authentification, pare-feu, éditeur de requête, requêtes SQL, mo
 
 ---
 
-## 🎯 Progression Recommandée
-
-```
-Semaine 1-2: Fondamentaux IaaS
-  ├─ Lab 01: Machine Virtuelle Linux
-  └─ Lab 02: Machine Virtuelle Windows
-
-Semaine 3: Stockage et Réseau
-  ├─ Lab 03: Stockage Blob
-  └─ Lab 04: VNet Peering
-
-Semaine 4: Réseautage Avancé
-  ├─ Lab 05: VNet-to-VNet Gateway
-  └─ Lab 06: Zone DNS Privée
-
-Semaine 5: Données
-  └─ Lab 07: Base de Données SQL
-```
-
----
 
 ## ✨ Caractéristiques
 
