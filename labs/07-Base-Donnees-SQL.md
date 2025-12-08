@@ -283,16 +283,6 @@ Pour être notifié des problèmes:
 
 ---
 
-## Questions de Révision
-
-1. Pourquoi faut-il configurer les règles de pare-feu?
-2. Quelle est la différence entre l'authentification SQL et Azure AD?
-3. Qu'est-ce qu'une DTU et comment elle affecte les performances?
-4. Comment optimiser les coûts d'une base de données SQL?
-5. Quelles sont les meilleures pratiques de sécurité pour SQL Azure?
-
----
-
 ## Dépannage Courant
 
 | Problème | Solution |
