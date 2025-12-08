@@ -123,8 +123,6 @@ Ce lab vous montre comment connecter deux réseaux virtuels situés dans la mêm
 
 ### Tâche 4 : Créer la Première Passerelle VNet (VNet-Gateway-N1)
 
-⚠️ **Nota Bene** : Cette étape peut prendre **20-30 minutes**
-
 1. Recherchez **Passerelles de réseau virtuel** > **+ Créer**
 2. Remplissez le formulaire:
    - **Nom**: `VNet-Gateway-N1`
@@ -277,15 +275,6 @@ Pour chaque VM, autorisez ICMP:
 
 ---
 
-## Questions de Révision
-
-1. Quelle est la différence entre le peering VNet et VNet-to-VNet avec gateways?
-2. Pourquoi le GatewaySubnet doit-il avoir un espace d'adresses séparé?
-3. Que se passe-t-il si la clé partagée (PSK) est différente des deux côtés?
-4. Comment vérifier que une connexion VPN est active?
-5. Quelle est la latence typique d'une connexion VNet-to-VNet?
-
----
 
 ## Dépannage Courant
 
